@@ -13,3 +13,6 @@ sentence = "Python is great and Python is fun and useful"
 total, unique, common = analyse_sentence(sentence)
 
 print("Total words:", total)
+
+print("Unique words:", unique)
+print("Most frequent word:", common[0], "appears", common[1], "times")
